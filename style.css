@@ -15,6 +15,9 @@ body {
   margin: 0;
   padding: 0;
 }
+body *{
+  transition: 0.4s;
+}
 
 h1,
 h2,
@@ -144,6 +147,9 @@ ul {
   margin-right: 5px;
   margin-left: 5px;
 }
+#navigation a{
+  color: var(--buttonColor);
+}
 .left-column {
   grid-area: left-column;
   padding: 50px 0;
@@ -208,7 +214,7 @@ ul {
 }
 #preview {
   width: 300px;
-  border: 1.5px solid #17a2b8;
+  border: 1.5px solid var(--buttonColor);
   background-color: var(--previewBg);
   padding: 15px;
   position: relative;
@@ -259,6 +265,7 @@ ul {
 }
 .social-links .fab{
   margin: 20px;
+  color: var(--buttonColor);
 }
 .social-links .fab .tooltiptext {
   visibility: hidden;
@@ -309,6 +316,9 @@ ul {
 .post-intro{
   color: #4b5156;
   font-size: 14px;
+}
+.post-preview a{
+  color: var(--buttonColor);
 }
 #contact-form{
   display: block;
