@@ -236,6 +236,46 @@ ul {
   bottom: -5px;
   left: -5px;
 }
+.about-wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+  padding: 50px 0;
+  gap: 100px;
+}
+#skills{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--previewShadow);
+}
+.social-links{
+  /* display: grid;
+  justify-content: center; */
+  text-align: center;
+}
+#social_img{
+  width: 100%;
+  height: 50%;
+}
+.social-links .fab{
+  margin: 20px;
+}
+.social-links .fab .tooltiptext {
+  visibility: hidden;
+  font-size: 12px;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+.fab:hover .tooltiptext {
+  visibility: visible;
+}
 @media screen and (max-width: 1200px) {
   .main-container {
     width: 95%;
