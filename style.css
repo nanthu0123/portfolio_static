@@ -249,6 +249,9 @@ ul {
   padding: 50px 0;
   gap: 100px;
 }
+.about-wrapper .about-me a{
+  color: var(--buttonColor);
+}
 #skills{
   display: flex;
   justify-content: space-evenly;
