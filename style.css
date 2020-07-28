@@ -18,6 +18,9 @@ body {
 body *{
   transition: 0.4s;
 }
+/* *:not(#theme-options-wrapper){
+  box-sizing: border-box;
+} */
 
 h1,
 h2,
@@ -167,7 +170,7 @@ ul {
   display: flex;
   justify-content: center;
 }
-.theme-dot {
+.theme-button {
   height: 30px;
   width: 30px;
   border-radius: 50%;
@@ -180,7 +183,7 @@ ul {
   -moz-box-shadow: -3px 3px 5px -1px rgba(0, 0, 0, 0.69);
   box-shadow: -3px 3px 5px -1px rgba(0, 0, 0, 0.69);
 }
-.theme-dot:hover {
+.theme-button:hover {
   border-width: 5px;
 }
 #light-mode {
