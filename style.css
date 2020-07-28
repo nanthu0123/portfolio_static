@@ -93,7 +93,8 @@ ul {
 .intro-wrapper {
   background-color: var(--secondaryColor);
   border: 1px solid var(--borderColor);
-  border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 5px 5px;
+  margin-bottom: 50px;
 
   -webkit-box-shadow: -3px 3px 5px -1px rgba(0, 0, 0, 0.69);
   -moz-box-shadow: -3px 3px 5px -1px rgba(0, 0, 0, 0.69);
@@ -223,7 +224,7 @@ ul {
   height: 7px;
   width: 7px;
   border-radius: 50%;
-  border: 1.5px solid #17a2b8;
+  border: 1.5px solid var(--buttonColor);
   background-color: #ffff;
   position: absolute;
 }
