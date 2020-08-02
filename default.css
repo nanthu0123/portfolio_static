@@ -324,6 +324,9 @@ ul {
 .post-preview a {
   color: var(--buttonColor);
 }
+.post-preview a:nth-last-child(1){
+  margin: 0 0 0 10px; 
+}
 #contact-form {
   display: block;
   max-width: 600px;
