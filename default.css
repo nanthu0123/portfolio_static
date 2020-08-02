@@ -325,7 +325,7 @@ ul {
   color: var(--buttonColor);
 }
 .post-preview a:nth-last-child(1){
-  margin: 0 0 0 10px; 
+  margin: 0 0 0 10px !important; 
 }
 #contact-form {
   display: block;
